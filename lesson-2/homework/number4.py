@@ -1,0 +1,5 @@
+divident=float(input("Enter divident: "))
+divisor=float(input("Enter divisor: "))
+quotient, remainder=(divmod(divident, divisor))
+print(f"Integer part: {quotient}")
+print(f"Remainder part: {remainder}")

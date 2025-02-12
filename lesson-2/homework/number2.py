@@ -1,0 +1,7 @@
+num1=float(input("Enter number1: "))
+num2=float(input("Enter number2: "))
+num3=float(input("Enter number3: "))
+largest=max(num1, num2, num3)
+smallest=min(num1, num2, num3)
+print(f"largest: {largest}")
+print(f"smallest: {smallest}")
