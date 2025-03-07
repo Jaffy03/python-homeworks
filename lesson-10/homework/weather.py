@@ -18,4 +18,4 @@ if data.status_code == 200:
     print(f"Humidity: {humidity}%")
     print(f"Description: {weather_description.capitalize()}")
 else:
-    print(f"Failed to fetch weather data. Status code: {response.status_code}")
+    print(f"Failed to fetch weather data. Status code: {data.status_code}")

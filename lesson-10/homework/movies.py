@@ -10,7 +10,7 @@ def fetch_genres():
     if data.status_code == 200:
         return data.json()['genres']
     else: 
-        print(f"Failed to fetch genres. Status code: {response.status_code}")
+        print(f"Failed to fetch genres. Status code: {data.status_code}")
         return []
     
 def fetch_movies_by_genre(genre_id):
